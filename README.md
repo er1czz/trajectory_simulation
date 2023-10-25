@@ -5,7 +5,11 @@ Code Sample to simulate trajectory data of customers in a retail store
 - Entry point: seafoam green
 - Exit zone: pale pink
 - A customer (as the green dot) enters the retail store from the entry point and left from the exit zone.
-
+- To do (future improvement):
+  - Dot movement: more realistic as human behavior, current implementation is more like rigid particle bounding in a confined space
+  - Dot interaction: to emulate customer - customer interaction, customer - employee interaction, customer - signage interaction
+  - Add floor plan and obstacles (store shelves, furnitures, etc.)
+    
 <p align="center">
   <img src="https://github.com/er1czz/trajectory_simulation/blob/main/demo_1dot_tracking.gif" alt="animated" />
 </p>
@@ -17,4 +21,3 @@ Code Sample to simulate trajectory data of customers in a retail store
 <p align="center">
   <img src="https://github.com/er1czz/trajectory_simulation/blob/main/trajs.png"/>
 </p>
-<p align="center"> 50 customers at 50th step </p> 
