@@ -7,8 +7,8 @@ Code Sample to simulate customers movement (dot trajectory) in a retail store
 - A customer (as the green dot) enters the retail store from the entry point and left from the exit zone.
 - To do (future improvement):
   - Dot movement: more realistic as human behavior, current implementation is more like rigid particle bounding in a confined space
-  - Dot interaction: to emulate customer - customer interaction, customer - employee interaction, customer - signage interaction
-  - Add floor plan and obstacles (store shelves, furnitures, etc.)
+  - Dot interaction: to emulate customer - customer interaction, customer - employee interaction, etc.
+  - Add floor plan (such as store shelves, furnitures, etc.) to show the utilization: e.g. customer - signage interaction.
     
 <p align="center">
   <img src="https://github.com/er1czz/trajectory_simulation/blob/main/demo_1dot_tracking.gif" alt="animated" />
