@@ -74,4 +74,4 @@ def dots_df_gen(customer_num):
             df1['id'] = i+1
             df = pd.concat([df, df1], ignore_index=True, axis=0)
             
-    return df
+    return df[['id', 'step', 'x', 'y']]
