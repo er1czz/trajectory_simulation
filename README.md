@@ -5,7 +5,9 @@ Code Sample to simulate customers movement (dot trajectory) in a retail store
 - Takeaway:
     1. Data synthesis: synthesize 2D tracking data of multiple customers in the same physcial space.
     2. Data visualization: illustrate trajectory data through interactive notebook and movie (e.g. mp4).
-    3. Data storage: Unlike sports, the time customer spent in a retail store **(*dwell time*)** varies. To efficiently store the synthetic data, individual trajectories are stacked in the output. Typical column names are ```id, step, x, y``` instead of ```step, customer_1_x, customer_1_y, customer_2_x, customer_2_y, ...```
+    3. Data storage:
+       i) Coordinate values are rounded to 3 digits to save space.
+       ii) Unlike sports, the time customer spent in a retail store **(*dwell time*)** varies. To efficiently store the synthetic data, individual trajectories are stacked in the output. Typical column names are ```id, step, x, y``` instead of ```step, customer_1_x, customer_1_y, customer_2_x, customer_2_y, ...```
 - P.S.
   - This synthetic dataset provide steps instead of timestamp. Different customer would enter the venue at different time. To add time as a new dimension, one can use random number generator to set different entry time for each customer.
 
