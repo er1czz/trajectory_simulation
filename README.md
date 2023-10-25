@@ -2,8 +2,8 @@
 Code Sample to simulate trajectory data of customers in a retail store
 
 - Simulating a dot (customer) in a rectanglar retail store 10 x 8
-- Entry (point): seafoam green
-- Exit (zone): pale pink
+- Entry point: seafoam green
+- Exit zone: pale pink
 - A customer (as a green dot) will enter the retail store from the entry point at coordinate (0.5, 6). Tracking will be ended once the customer moved to the exit zone.
 
 <p align="center">
