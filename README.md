@@ -13,7 +13,7 @@ Code Sample to simulate customers movement (dot trajectory) in a retail store
 
       
 - Future improvement:
-  - Dot movement: more realistic as human behavior, current implementation is more like rigid particle bounding in a confined space
+  - Dot movement: more realistic as human behavior, current implementation is more like rigid particle bouncing around in a confined space
   - Dot interaction: to emulate customer - customer interaction, customer - employee interaction, etc.
   - Add floor plan (such as store shelves, furnitures, etc.) to show the utilization: e.g. customer - signage interaction.
     
