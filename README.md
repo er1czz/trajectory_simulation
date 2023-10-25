@@ -21,9 +21,8 @@ please refer to the [demo.ipynb](https://github.com/er1czz/trajectory_simulation
      - i) Coordinate values are rounded to 3 digits to save space.
      - ii) Unlike sports, the amount of time customer spent in a retail store **(*dwell time*)** varies. To efficiently store the synthetic data, individual trajectories are stacked in the output. Typical column names are ```id, step, x, y``` instead of ```step, customer_1_x, customer_1_y, customer_2_x, customer_2_y, ...```
      - *P.S.* This synthetic dataset provide steps instead of timestamp. Different customers would enter the venue at different times. To add time as a new dimension, random number generator can be used to set different entry time for each customer.
-
       
-### Future improvements:
+### Future improvements
 1. Add floor plan (such as store shelves, furnitures, etc.) to show facility utilization: e.g. customer - signage interaction.
 2. Dot movement: more realistic as human behaviors. The current model exhibits rigid motions as if the dots are particles bouncing around in a confined space.
 3. Dot interactions: to emulate customer - customer interactions, customer - employee interactions, etc.
