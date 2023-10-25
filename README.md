@@ -5,8 +5,8 @@ Code Sample to simulate customers movement (dot trajectory) in a retail store
 - Data synthesis: ```python app.py``` and follow the instructions to enter number of customers and output file name 
 - Visualization: please refer to the [demo.ipynb](https://github.com/er1czz/trajectory_simulation/blob/main/demo.ipynb)
 - Takeaway:
-    1. Data synthesis: synthesize 2D tracking data of multiple customers in the same physcial space. (example [sample_output.csv](https://github.com/er1czz/trajectory_simulation/blob/main/sample_output.csv))
-    2. Data visualization: illustrate trajectory data through interactive notebook [demo.ipynb](https://github.com/er1czz/trajectory_simulation/blob/main/demo.ipynb) and movie (e.g. mp4 [example](https://github.com/er1czz/trajectory_simulation/blob/main/demo_1dot_tracking.mp4)).
+    1. Data synthesis: synthesize 2D tracking data of multiple customers in the same physcial space. (e.g. [sample_output.csv](https://github.com/er1czz/trajectory_simulation/blob/main/sample_output.csv))
+    2. Data visualization: illustrate trajectory data through interactive notebook [demo.ipynb](https://github.com/er1czz/trajectory_simulation/blob/main/demo.ipynb) and movie (e.g. [mp4](https://github.com/er1czz/trajectory_simulation/blob/main/demo_1dot_tracking.mp4)).
     3. Data storage:
         - i) Coordinate values are rounded to 3 digits to save space.
         - ii) Unlike sports, the time customer spent in a retail store **(*dwell time*)** varies. To efficiently store the synthetic data, individual trajectories are stacked in the output. Typical column names are ```id, step, x, y``` instead of ```step, customer_1_x, customer_1_y, customer_2_x, customer_2_y, ...```
