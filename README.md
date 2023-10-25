@@ -9,3 +9,7 @@ Code Sample to simulate trajectory data of customers in a retail store
 <p align="center">
   <img src="https://github.com/er1czz/trajectory_simulation/blob/main/demo_1dot_tracking.gif" alt="animated" />
 </p>
+
+<p align="center">
+  <img src="https://github.com/er1czz/trajectory_simulation/blob/main/traj.png"/>
+</p>
