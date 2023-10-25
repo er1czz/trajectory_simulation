@@ -1,3 +1,7 @@
+'''
+Given a number of customers and output file name, this script can generate trajectories and saved into csv file
+2023/10/25 by Eric
+'''
 from dot_gen import dots_df_gen
 import pandas as pd
 
