@@ -11,20 +11,20 @@ Code Sample to simulate customers movement (dot trajectory) in a retail store
     2. Data visualization: illustrate trajectory data through interactive notebook [demo.ipynb](https://github.com/er1czz/trajectory_simulation/blob/main/demo.ipynb) and movie (e.g. [.mp4](https://github.com/er1czz/trajectory_simulation/blob/main/demo_1dot_tracking.mp4)).
     3. Data storage:
         - i) Coordinate values are rounded to 3 digits to save space.
-        - ii) Unlike sports, the time customer spent in a retail store **(*dwell time*)** varies. To efficiently store the synthetic data, individual trajectories are stacked in the output. Typical column names are ```id, step, x, y``` instead of ```step, customer_1_x, customer_1_y, customer_2_x, customer_2_y, ...```
+        - ii) Unlike sports, the amount of time customer spent in a retail store **(*dwell time*)** varies. To efficiently store the synthetic data, individual trajectories are stacked in the output. Typical column names are ```id, step, x, y``` instead of ```step, customer_1_x, customer_1_y, customer_2_x, customer_2_y, ...```
 - P.S.
-  - This synthetic dataset provide steps instead of timestamp. Different customer would enter the venue at different time. To add time as a new dimension, one can use random number generator to set different entry time for each customer.
+  - This synthetic dataset provide steps instead of timestamp. Different customers would enter the venue at different times. To add time as a new dimension, random number generator can be used to set different entry time for each customer.
 
       
 - Future improvement:
-  - Dot movement: more realistic as human behavior, current implementation is more like rigid particle bouncing around in a confined space
-  - Dot interaction: to emulate customer - customer interaction, customer - employee interaction, etc.
-  - Add floor plan (such as store shelves, furnitures, etc.) to show the utilization: e.g. customer - signage interaction.
+  - Dot movement: more realistic as human behaviors. The movements of dots in the current model is rigid as if they are particles bouncing around in a confined space.
+  - Dot interactions: to emulate customer - customer interactions, customer - employee interactions, etc.
+  - Add floor plan (such as store shelves, furnitures, etc.) to show facility utilization: e.g. customer - signage interaction.
     
 <p align="center">
   <img src="https://github.com/er1czz/trajectory_simulation/blob/main/demo_1dot_tracking.gif" alt="animated" />
 </p>
-<p aligh="center">A customer (as the green dot) enters the retail store (10x8 rectangle box) from the entry point and leaves from the exit zone. (Entry point: seafoam green; Exit zone: pale pink) </p>
+<p aligh="center">A customer (green dot) enters the retail store (10x8 rectangle box) at the entry point and leaves through the exit zone. (Entry point: seafoam green; Exit zone: pale pink) </p>
 &nbsp;
 &nbsp;
 <p align="center">
