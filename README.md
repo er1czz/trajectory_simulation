@@ -4,7 +4,7 @@ Code Sample to simulate customers movement (dot trajectory) in a retail store
 - Scope: Simulating the trajectory of a customer in a rectanglar retail store (e.g. 10 x 8 2D confined space)
 - Takeaway:
     1. Data synthesis: synthesize 2D tracking data of multiple customers in the same physcial space.
-    2. Data visualization: illustrate trajectory data through interactive notebook and movie (e.g. mp4).
+    2. Data visualization: illustrate trajectory data through interactive notebook and movie (e.g. mp4 [example](https://github.com/er1czz/trajectory_simulation/blob/main/demo_1dot_tracking.mp4)).
     3. Data storage:
         - i) Coordinate values are rounded to 3 digits to save space.
         - ii) Unlike sports, the time customer spent in a retail store **(*dwell time*)** varies. To efficiently store the synthetic data, individual trajectories are stacked in the output. Typical column names are ```id, step, x, y``` instead of ```step, customer_1_x, customer_1_y, customer_2_x, customer_2_y, ...```
