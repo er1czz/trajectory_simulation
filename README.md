@@ -24,7 +24,7 @@ Code Sample to simulate customers movement (dot trajectory) in a retail store
 <p align="center">
   <img src="https://github.com/er1czz/trajectory_simulation/blob/main/demo_1dot_tracking.gif" alt="animated" />
 </p>
-<p aligh="center">A customer (as the green dot) enters the retail store from the entry point and left from the exit zone. (Entry point: seafoam green; Exit zone: pale pink) </p>
+<p aligh="center">A customer (as the green dot) enters the retail store (10x8 rectangle box) from the entry point and leaves from the exit zone. (Entry point: seafoam green; Exit zone: pale pink) </p>
 &nbsp;
 &nbsp;
 <p align="center">
