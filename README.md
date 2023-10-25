@@ -13,3 +13,8 @@ Code Sample to simulate trajectory data of customers in a retail store
 <p align="center">
   <img src="https://github.com/er1czz/trajectory_simulation/blob/main/traj.png"/>
 </p>
+
+<p align="center">
+  <img src="https://github.com/er1czz/trajectory_simulation/blob/main/trajs.png"/>
+</p>
+<p align="center"> 50 customers at 50th step </p> 
