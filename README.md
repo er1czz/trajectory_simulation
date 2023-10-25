@@ -7,6 +7,8 @@ Simulating the trajectory of a customer in a rectanglar retail store (e.g. 10 x 
 
 ### Data synthesis
 ```git clone https://github.com/er1czz/trajectory_simulation.git```
+
+
 ```python app.py``` and follow the instructions to enter number of customers and output file name
 
 ### Visualization
