@@ -1,7 +1,7 @@
 # Customers in a *box*
 Code Sample to simulate customers movement (dot trajectory) in a retail store
-- Motivation: People movement tracking data can be commonly found in sports analytics research, for example [metrica football data](https://github.com/metrica-sports/sample-data). However, human behaves differently during sport vs shopping. For example, it is possible all the players would enter and exit the field at the same time.
-- Scope: Simulating the trajectory of a customer in a rectanglar retail store 10 x 8 2D space
+- Motivation: People movement tracking data can be commonly found in sports analytics research, for example [metrica football data](https://github.com/metrica-sports/sample-data). However, human behaves differently during sport vs shopping. For example, it is possible all the players would enter and exit the field at the same time. The number of people in a sport event can be far less than that in a shopping event.
+- Scope: Simulating the trajectory of a customer in a rectanglar retail store (e.g. 10 x 8 2D confined space)
 - Takeaway:
     1. Data synthesis: synthesize 2D tracking data of multiple customers in the same physcial space.
     2. Data visualization: illustrate trajectory data through interactive notebook and movie (e.g. mp4).
