@@ -16,10 +16,10 @@ Code Sample to simulate customers movement (dot trajectory) in a retail store
   - This synthetic dataset provide steps instead of timestamp. Different customers would enter the venue at different times. To add time as a new dimension, random number generator can be used to set different entry time for each customer.
 
       
-- Future improvement:
-  - Dot movement: more realistic as human behaviors. The movements of dots in the current model is rigid as if they are particles bouncing around in a confined space.
-  - Dot interactions: to emulate customer - customer interactions, customer - employee interactions, etc.
-  - Add floor plan (such as store shelves, furnitures, etc.) to show facility utilization: e.g. customer - signage interaction.
+- Future improvements:
+    - Add floor plan (such as store shelves, furnitures, etc.) to show facility utilization: e.g. customer - signage interaction.
+    - Dot movement: more realistic as human behaviors. The current model exhibits rigid motions as if the dots are particles bouncing around in a confined space.
+    - Dot interactions: to emulate customer - customer interactions, customer - employee interactions, etc.
     
 <p align="center">
   <img src="https://github.com/er1czz/trajectory_simulation/blob/main/demo_1dot_tracking.gif" alt="animated" />
