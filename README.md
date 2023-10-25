@@ -1,5 +1,5 @@
-# trajectory_simulation
-Code Sample to simulate trajectory data of customers in a retail store
+# Customers in a *box*
+Code Sample to simulate customers movement (dot trajectory) in a retail store
 
 - Simulating the trajectory of a customer in a rectanglar retail store 10 x 8 2D space
 - Entry point: seafoam green
