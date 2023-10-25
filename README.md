@@ -30,7 +30,8 @@ Code Sample to simulate customers movement (dot trajectory) in a retail store
 <p align="center">
   <img src="https://github.com/er1czz/trajectory_simulation/blob/main/interface.png"/>
 </p>
-<p align="center">Inspect the trajectory of an individual customer through Jupyter Notebook [demo.ipynb](https://github.com/er1czz/trajectory_simulation/blob/main/demo.ipynb)</p>
+<p align="center">Inspect the trajectory of an individual customer through Jupyter Notebook</p>
+[demo.ipynb](https://github.com/er1czz/trajectory_simulation/blob/main/demo.ipynb)
 &nbsp;
 &nbsp;
 <p align="center">
