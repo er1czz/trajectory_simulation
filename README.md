@@ -21,19 +21,14 @@ please refer to the [demo.ipynb](https://github.com/er1czz/trajectory_simulation
      - i) Coordinate values are rounded to 3 digits to save space.
      - ii) Unlike sports, the amount of time customer spent in a retail store **(*dwell time*)** varies. To efficiently store the synthetic data, individual trajectories are stacked in the output. Typical column names are ```id, step, x, y``` instead of ```step, customer_1_x, customer_1_y, customer_2_x, customer_2_y, ...```
      - *P.S.* This synthetic dataset provide steps instead of timestamp. Different customers would enter the venue at different times. To add time as a new dimension, random number generator can be used to set different entry time for each customer.
-      
+4. Potential use case:
+     - optimize store layout: simulate customer flow to identify areas that would cause traffic jam as well as overutilized /underutilized facilities.
+       
 ### Future improvements
 1. Add floor plan (such as store shelves, furnitures, etc.) to show facility utilization: e.g. customer - signage interaction.
 2. Dot movement: more realistic as human behaviors. The current model exhibits rigid motions as if the dots are particles bouncing around in a confined space.
 3. Dot interactions: to emulate customer - customer interactions, customer - employee interactions, etc.
     
-<p align="center">
-  <img src="https://github.com/er1czz/trajectory_simulation/blob/main/demo_1dot_tracking.gif" alt="animated" />
-</p>
-<p aligh="center">A customer (green dot) enters the retail store (10x8 rectangle box) at the entry point and leaves through the exit zone. (Entry point: seafoam green; Exit zone: pale pink) </p>
-
-&nbsp;
-&nbsp;
 
 <p align="center">
   <img src="https://github.com/er1czz/trajectory_simulation/blob/main/demo_multi_dots_tracking.gif" alt="animated" />
@@ -43,10 +38,3 @@ please refer to the [demo.ipynb](https://github.com/er1czz/trajectory_simulation
 &nbsp;
 &nbsp;
 
-<p align="center">
-  <img src="https://github.com/er1czz/trajectory_simulation/blob/main/interface.png"/>
-</p>
-<p align="center">Inspect the trajectory of an individual customer through Jupyter Notebook</p>
-
-&nbsp;
-&nbsp;
