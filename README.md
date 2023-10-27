@@ -31,14 +31,22 @@ please refer to the [demo.ipynb](https://github.com/er1czz/trajectory_simulation
   <img src="https://github.com/er1czz/trajectory_simulation/blob/main/demo_1dot_tracking.gif" alt="animated" />
 </p>
 <p aligh="center">A customer (green dot) enters the retail store (10x8 rectangle box) at the entry point and leaves through the exit zone. (Entry point: seafoam green; Exit zone: pale pink) </p>
+
 &nbsp;
 &nbsp;
+
+<p align="center">
+  <img src="https://github.com/er1czz/trajectory_simulation/blob/main/demo_multi_dots_tracking.gif" alt="animated" />
+</p>
+<p aligh="center">A customer (green dot) enters the retail store (10x8 rectangle box) at the entry point and leaves through the exit zone. (Entry point: seafoam green; Exit zone: pale pink) </p>
+
+&nbsp;
+&nbsp;
+
 <p align="center">
   <img src="https://github.com/er1czz/trajectory_simulation/blob/main/interface.png"/>
 </p>
 <p align="center">Inspect the trajectory of an individual customer through Jupyter Notebook</p>
+
 &nbsp;
 &nbsp;
-<p align="center">
-  <img src="https://github.com/er1czz/trajectory_simulation/blob/main/trajs.png"/>
-</p>
