@@ -56,7 +56,7 @@ def traj_dots_show(df):
     plt.text(0.05, 2.3,'Exit', fontsize=10, rotation=30)
     
     for name, group in df.groupby('id'):
-        group.plot('x', 'y', ax=ax, label=name, alpha = 0.5)
+        group.plot('x', 'y', ax=ax, label=name, alpha = 0.5, legend=False)
         
     plt.title(f'Trajectories of {df.id.nunique()} customers')
     plt.xlim(0, 10)
